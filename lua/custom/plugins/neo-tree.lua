@@ -27,6 +27,6 @@ return {
       -- you can add additional neo-tree configuration options here
     }
     -- Optional key mapping to toggle neo-tree
-    vim.keymap.set('n', '<leader>e', '<cmd>Neotree toggle<CR>', { desc = 'Toggle Neo-tree' })
+    vim.keymap.set('n', '\\', '<cmd>Neotree toggle<CR>', { desc = 'Toggle Neo-tree' })
   end,
 }
